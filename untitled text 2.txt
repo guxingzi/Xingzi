@@ -1,0 +1,36 @@
+<html lang="en" dir="ltr">
+<head>
+  <style>
+  body {
+        background-image: url("file:///C:/Users/asus/Desktop/kat/guxingzi.github.io/gif.gif" ) ;
+        background-size: 200px 180px ;
+        background-repeat: repeat-x repeat-y ;
+        }
+        
+  body {
+        color:red;
+        }
+  body {
+         text-align : right ;
+         font-size: 90px;
+         font-family: Arial, Helvetica, sans-serif;
+         }
+             
+  </style>   
+  
+  <meta charset="utf-8">
+  <title>Animated Gif Example</title>
+
+<body>
+Kat Gu
+
+
+  <img src="file:///C:/Users/asus/Desktop/kat/guxingzi.github.io/pipe.gif" />
+  <br>
+  <br>
+  <img src="file:///C:/Users/asus/Desktop/kat/guxingzi.github.io/P1010517.gif" />
+  
+  <!--put gif here with <img src="Gif.gif" />-->
+</body> 
+</head>
+</html>
