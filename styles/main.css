@@ -1,0 +1,145 @@
+h1 {
+   color:black;
+   text-align:center;
+   font-family: "Arial", serif;
+   font-size: 35px;
+}
+
+    p {
+       text-align:right;
+       font-family: "Arial", serif;
+       font-size: 25px;
+       margin:0px;
+/* unvisited link */
+   }
+   
+a:link {
+    color: #000000;
+}
+
+/* visited link */
+a:visited {
+    color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FEE901;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover .desc{
+    color: #000;
+}
+
+/* selected link */
+a:active {
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+div.image {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: right;
+} 
+
+div.image img {
+    display: inline;
+    margin: 0px;
+    border: 0px solid #ffffff;
+}
+
+div.image:hover .desc{
+    border: 0px solid #fff;
+    color: #ffffff
+    opacity: 0.8;
+    visibility: visible;
+    transition: 0.2s
+}
+
+.desc {
+width: 420px;
+height: 310px;
+background-color: #fff;
+opacity:1;
+  text-align: center;
+  font-family: "Arial", serif;
+  font-size: 75px;
+  margin: 0px;
+  visibility: hidden;
+  position: relative;
+  margin-top: -314px;
+}
+
+.bio {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.circle {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.insta {
+  bottom: 30px;
+  right: 30px;
+  position: absolute;
+}
+
+.insta .yellowinsta {
+    opacity:0;
+    transition: 0.2s;
+    position: absolute;
+    margin-top:-34px;
+}
+
+.insta:hover .yellowinsta{
+opacity:1
+}
+
+
+
+.email {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.email .yellowemail {
+opacity:0;
+transition: 0.2s
+position: absolute;
+margin-top:-34px;
+}
+
+
+.email:hover .yellowemail{
+opacity:1
+}
+
+
+.menu-links {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 1300px;
+}
