@@ -1,0 +1,119 @@
+h1 {
+   color:black;
+   text-align:center;
+   font-family: "Arial", serif;
+   font-size: 35px;
+}
+
+    p {
+       text-align:right;
+       font-family: "Arial", serif;
+       font-size: 25px;
+       margin:0px;
+   }
+   
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #FEE901;
+    text-decoration: none;
+     transition: 0.2s;
+}
+a:hover .description{
+  color: #000;
+  transition: 0.2s;
+}
+
+a:active {
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+.bio {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.circle {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.insta {
+  top: 70px;
+  left: 25px;
+  position: absolute;
+}
+
+.insta .yellowinsta {
+    opacity:0;
+    transition: 0.2s;
+    position: absolute;
+    margin-top:-34px;
+}
+.insta:hover .yellowinsta{
+opacity:1
+}
+
+.box-fade {
+  display: inline-flex;
+}
+
+.email {
+  position: absolute;
+      top: 120px;
+    left: 25px;
+}
+
+.email .yellowemail {
+opacity:0;
+transition: 0.2s
+position: absolute;
+margin-top:-34px;
+}
+
+.email:hover .yellowemail{
+opacity:1
+}
+
+
+
+body {
+  text-align: center;
+}
+
+.box-fade .image {
+  margin: 80px;
+  width: 240px;
+  height: 180px;
+  }
+
+.box-fade:hover .description {
+  opacity: 1;
+  transform: translateY(-65px);
+}
+
+.box-fade .description {
+  opacity: 0;
+  width: 240px;
+  height: 61px;
+  background-color: #fff;
+  text-align: center;
+  font-family: "Arial", serif;
+  font-size: 15px;
+  position: absolute;
+  transition: 0.5s;
+}
